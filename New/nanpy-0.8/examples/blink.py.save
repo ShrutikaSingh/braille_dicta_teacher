@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+
+# Author: Andrea Stagi <stagi.andrea@gmail.com>
+# Description: keeps your led blinking
+# Dependencies: None
+
+from nanpy import Arduino as A
+
+A.pinMode(4, A.OUTPUT)
+
+#for i in range(10000):
+while True:
+    A.digitalWrite(4, A.HIGH
+    A.delay(10)
+
